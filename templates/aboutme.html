@@ -1,0 +1,269 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row min-vh-100 flex-column flex-md-row">
+        <aside class="col-12 col-md-3 col-xl-2 p-0 bg-dark flex-shrink-1">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top" id="sidebar">
+                <div class="text-center">
+                    <img src="../static/img/Me.jpg" class="rounded-circle my-4 d-none d-md-block p-1 shadow" />
+                    <a class="navbar-brand mx-0 font-weight-bold text-nowrap" href="#about">Joshua K. Mwebi</a>
+                </div>
+                <button class="navbar-toggler border-0 order-1" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-last" id="nav">
+                    <ul class="navbar-nav flex-column w-100 justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#education" data-target="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#examples">My Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a href="mailto:joshymwebi@gmail.com" class="nav-link text-white px-2"><i class="fa fa-envelope fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="http://www.linkedin.com/in/joshmwebi" class="nav-link text-white px-2"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="col px-0 pt-3 flex-grow-1">
+            <div class="container py-3" id="about">
+                <h1 class="font-weight-light">Hello World, I'm Josh!</h1>
+                <p>I am an upcoming graduate with broad knowledge of information security and technology. Looking to be an effective asset
+                    on a professional team. Energetic self-starter, problem -solver, and team plater with outstanding technical and communication skills.
+                    fast learner with the ability to grasp new threats concepts and technologies  </p>
+                <a role="button" class="btn btn-outline-dark align-center" href="../static/files/resume.pdf">Download PDF <i class="far fa-file-pdf fa-lg"></i></a>
+            </div>
+            <section id="education" class="bg-light py-4">
+                <div class="container">
+                    <h3 class="font-weight-light">Education</h3> B.S Information Technology Infrastructure, University of Minnesota – Dec 2022
+                </div>
+            </section>
+            <section id="experience" class="container py-5">
+                <h3 class="font-weight-light">Experience</h3>
+                <div class="py-2">
+                    <!-- timeline item 1 -->
+                    <div class="row no-gutters">
+                        <div class="col-md">
+                            <!--spacer-->
+                        </div>
+                        <!-- timeline item 1 center dot -->
+                        <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                            <div class="row h-50">
+                                <div class="col">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <span class="badge badge-pill bg-light border">&nbsp;</span>
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <!-- timeline item 1 event content -->
+                        <div class="col-md py-2" data-aos="zoom-in">
+                            <div class="card border-success shadow">
+                                <div class="card-body">
+                                    <h4 class="card-title text-success mb-0">Marco Technologies</h4>
+                                    <h6 class="card-title text-success mb-0">Mar 2022 - Present</h6>
+                                    <div class="small font-italic">Minnetonka, MN</div>
+                                    <p class="card-text mt-2">Provide centralized management of Anti-Virus software with Crowd Strike.
+                                        Detect security issues, create customer tickets, and manage problems until closure.
+                                        Responsible for the initial delivery of IT and business process audits according to NIST and SOC2 to ensure business
+                                        risks were recognized and appropriately managed before the company was adversely affected.
+                                        Perform incident response activities such as host triage and retrieval, malware analysis, remote system analysis, enduser interviews, and remediation efforts.</p>
+                                    <span class="text-normal badge badge-dark">CrowdStrike</span>
+                                    <span class="text-normal badge badge-dark">ConnectWise</span>
+                                    <span class="text-normal badge badge-dark">Perch Security</span>
+                                    <span class="text-normal badge badge-dark">Incident Response</span>
+                                    <span class="text-normal badge badge-dark">Java</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 2 -->
+                    <div class="row no-gutters">
+                        <div class="col-md py-2" data-aos="zoom-in">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-0">Best Buy Corp.</h4>
+                                    <h6 class="card-title mb-0">Jun 2021 – Aug 2021</h6>
+                                    <div class="small font-italic">Richfield, MN</div>
+                                    <p class="card-text mt-2">Process both internal and external Cyber Threat Intel for determination of potential threat and impact, hunting to
+                                        determine potential scope, and implementation of mitigations to defend Best Buy’s enterprise.
+                                        Maintain knowledge of IOA’s, methods, network/endpoint forensic analysis, and malware analysis.
+                                        Conduct pivoting analysis on Threat Intelligence to identify current impact or proactively process mitigations for
+                                        defense through security technologies and proactive mitigations including zero-day patching identification, anomalous
+                                        behavior, and recommendations of remediation action.
+                                        </p>
+                                    <span class="text-normal badge badge-dark">Threat Intelligence</span>
+                                    <span class="text-normal badge badge-dark">Python</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <span class="badge badge-pill bg-light border">&nbsp;</span>
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <!--spacer-->
+                        </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 3 -->
+                    <div class="row no-gutters">
+                        <div class="col-md">
+                            <!--spacer-->
+                        </div>
+                        <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <span class="badge badge-pill bg-light border">&nbsp;</span>
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col-md py-2" data-aos="zoom-in">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-0"> United Health Group</h4>
+                                    <h6 class="card-title mb-0">Jun 2020 – Aug 2020 </h6>
+                                    <div class="small font-italic">Minnetonka, MN</div>
+                                    <p class="card-text mt-2">Conduct troubleshooting to help resolve application issues for hundreds of employees.
+                                        Maintain strong company product, service, and technical knowledge to better assist employees with questions,
+                                        troubleshooting, and general education.
+                                        Consistently meet call handling goals with an over 80% first call resolution ratio.
+                                        Document issues and generate reports detailing common problems and error trends to present to relevant.
+                                        stakeholders</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 4 -->
+                    <div class="row no-gutters">
+                        <div class="col-md py-2" data-aos="zoom-in">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-0"> Best Buy Retail</h4>
+                                    <h6 class="card-title mb-0">Aug 2017 – Jun 2021</h6>
+                                    <div class="small font-italic">Burnsville, MN</div>
+                                    <p class="card-text mt-2">Maintain customer record account information. Oversee customer financial accounts and process customer
+                                        adjustments. Make product recommendations or services to customers based on their needs and preferences.</p>
+                                    <span class="text-normal badge badge-dark">Customer Service</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                                <span class="badge badge-pill bg-light border">&nbsp;</span>
+                            </h5>
+                            <div class="row h-50">
+                                <div class="col">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <!--spacer-->
+                        </div>
+                    </div>
+                    <!--/row-->
+                </div>
+            </section>
+            <section id="skills" class="bg-light">
+                <div class="container py-5">
+                    <h2 class="text-center font-weight-light mb-5">Skills &amp; Tools</h2>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-lg col-md-6 py-3">
+                            <h5>Offensive Security</h5>
+                            <p class="text-truncate">Kali Linux</p>
+                            <p class="text-truncate">Metasploit</p>
+                            <p class="text-truncate">NMAP</p>
+                            <p class="text-truncate">Nessus</p>
+                        </div>
+                        <div class="col-lg col-md-6 py-3">
+                            <h5>Programming</h5>
+                            <p>Python</p>
+                            <p>C</p>
+                            <p>Bash</p>
+                            <p>MySQL</p>
+                            <p>HTML/CSS</p>
+                        </div>
+                        <div class="col-lg col-md-6 py-3">
+                            <h5>Tools</h5>
+                            <p>Active Directory</p>
+                            <p> Oracle VM</p>
+                            <p>ZenGRC</p>
+                            <p>CrowdStrike</p>
+                            <p>Perch</p>
+                        </div>
+                        <div class="col-lg col-md-6 py-3">
+                            <h5>MacOS</h5>
+                            <p>Visual Studio</p>
+                            <p>Windows</p>
+                            <p>Linux(RHEL, Debian, CentOS)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="containter-fluid padding">
+                <div class="row text-center">
+                    <div class="col">
+                        <img src="static/img/logo.png"> Joshua Mwebi
+                        <hr class ="light">
+                        <p>612-991-6743</p>
+                        <p>joshymwebi@gmail.com</p>
+                        <p>240 Park Ave</p>
+                        <p>Minneapolis, MN 55415</p>
+                    </div>
+                    <div class="col">
+                        <hr class="light">
+                        <h5>Availability</h5>
+                        <hr class="light">
+                        <p>Mon - Fri: 11:30am - 5pm </p>
+                        <p>Sat: Noon - 5pm</p>
+                        <P>Sun: Unavailable</P>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light">
+                        <h5>&copy; Joshua Mwebi</h5>
+                    </div>
+                </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</div>
+
+{% endblock %}

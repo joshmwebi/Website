@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+<!-- This is the Homepage -->
+{% block content %}
+    <h1>{% block title %} <Center>Joshua K. Mwebi</Center> {% endblock %}</h1>
+    
+    <div class="containter-fluid padding"> 
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">How I built this site</h1>
+        </div>
+        <hr class ="my">
+        <div class="col-12"></div>
+        <p class="lead">Welcome to my online portfolio built from scratch!
+        I am using bootstrap which is a free and open-source  front end framework
+        library with HTML and CSS based designs</p>
+    </div>
+    </div>
+
+    <div class="containter-fluid padding"> 
+    <div class="row text-center padding"> 
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML5</h3>
+                <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. 
+                It is the fifth and final major HTML version that is a World Wide Web Consortium recommendation.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+                <h3>Bootstrap</h3>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. 
+                It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML
+                (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+            </div>
+    </div>
+    <hr class="my-4">
+    
+    <footer>
+        <div class="containter-fluid padding">
+        <div class="row text-center">
+            <div class="col">
+                <img src="static/img/logo.png"> Joshua Mwebi
+                <hr class ="light">
+                <p>612-991-6743</p>
+                <p>joshymwebi@gmail.com</p>
+                <p>240 Park Ave</p>
+                <p>Minneapolis, MN 55415</p>
+            </div>
+            <div class="col">
+                <hr class="light">
+                <h5>Availability</h5>
+                <hr class="light">
+                <p>Mon - Fri: 11:30am - 5pm </p>
+                <p>Sat: Noon - 5pm</p>
+                <P>Sun: Unavailable</P>
+            </div>
+            <div class="col-12">
+                <hr class="light">
+                <h5>&copy; Joshua Mwebi</h5>
+            </div>
+        </div>
+        </div>
+    </footer>
+{% endblock %}

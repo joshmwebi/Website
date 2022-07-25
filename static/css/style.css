@@ -1,0 +1,23 @@
+
+
+
+.fa-code {
+    color: #e54d26
+}
+.fa-bold {
+    color: #563d7c;
+}
+.fa-css3 {
+    color: #2163af;
+}
+
+.fa-code, .fa-bold, .fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #575555;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
